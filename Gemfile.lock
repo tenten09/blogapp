@@ -75,7 +75,6 @@ GEM
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     erubi (1.10.0)
-      i18n (>= 1.6, < 2)
     faker (2.14.0)
       i18n (>= 1.6, < 2)
     ffi (1.13.1)
