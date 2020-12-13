@@ -23,4 +23,9 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :articles, dependent: :destroy       
+  
+  def has whitten?(article)
+    articles.exists?(id: article.id)   
+  end
 end
+
