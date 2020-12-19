@@ -7,4 +7,6 @@ Rails.application.routes.draw do
     resources :comments, onl: [:new, :create]
   end
 
+  resource :profile, only: [:show, :edit, :update]
+
 end
