@@ -50,7 +50,7 @@ def article_params
   puts '--------------------'
   puts params
   puts '--------------------'
-  params.require(:article).permit(:title, :content)
+  params.require(:article).permit(:title, :content, :eyecatch)
 end
 
 def set_article
