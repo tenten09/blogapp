@@ -7,15 +7,15 @@ default: &default
 
 development:
   <<: *default
-  database: blogapp_development
+  database: blogapp09_development
 
 test:
   <<: *default
-  database: blogapp_test
+  database: blogapp09_test
 
 production:
   <<: *default
-  database: blogapp_production
-  username: blogapp
+  database: blogapp09_production
+  username: blogapp09
   password: <%= ENV['DATABASE_PASSWORD'] %>
   host: <%= ENV['DATABASE_HOST'] %>
